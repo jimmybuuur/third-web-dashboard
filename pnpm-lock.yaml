@@ -123,7 +123,7 @@ dependencies:
     version: 2.4.0(react-dom@18.3.1)(react@18.3.1)
   next:
     specifier: ^14.2.3
-    version: 14.2.3(@babel/core@7.24.4)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(react-dom@18.3.1)(react@18.3.1)
+    version: 14.2.3(@babel/core@7.24.4)(@opentelemetry/api@1.8.0)(@playwright/test@1.44.1)(react-dom@18.3.1)(react@18.3.1)
   next-plausible:
     specifier: ^3.12.0
     version: 3.12.0(next@14.2.3)(react-dom@18.3.1)(react@18.3.1)
@@ -238,8 +238,8 @@ devDependencies:
     specifier: ^14.2.2
     version: 14.2.2
   '@playwright/test':
-    specifier: ^1.43.1
-    version: 1.43.1
+    specifier: ^1.44.1
+    version: 1.44.1
   '@types/color':
     specifier: ^3.0.6
     version: 3.0.6
@@ -5097,12 +5097,12 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
-  /@playwright/test@1.43.1:
-    resolution: {integrity: sha512-HgtQzFgNEEo4TE22K/X7sYTYNqEMMTZmFS8kTq6m8hXj+m1D8TgwgIbumHddJa9h4yl4GkKb8/bgAl2+g7eDgA==}
+  /@playwright/test@1.44.1:
+    resolution: {integrity: sha512-1hZ4TNvD5z9VuhNJ/walIjvMVvYkZKf71axoF/uiAqpntQJXpG64dlXhoDXE3OczPuTuvjf/M5KWFg5VAVUS3Q==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
-      playwright: 1.43.1
+      playwright: 1.44.1
 
   /@pnpm/constants@7.1.1:
     resolution: {integrity: sha512-31pZqMtjwV+Vaq7MaPrT1EoDFSYwye3dp6BiHIGRJmVThCQwySRKM7hCvqqI94epNkqFAAYoWrNynWoRYosGdw==}
@@ -6211,7 +6211,7 @@ packages:
       '@sentry/vercel-edge': 8.2.1
       '@sentry/webpack-plugin': 2.16.0(webpack@5.91.0)
       chalk: 3.0.0
-      next: 14.2.3(@babel/core@7.24.4)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(react-dom@18.3.1)(react@18.3.1)
+      next: 14.2.3(@babel/core@7.24.4)(@opentelemetry/api@1.8.0)(@playwright/test@1.44.1)(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
       resolve: 1.22.8
       rollup: 3.29.4
@@ -7053,7 +7053,7 @@ packages:
       ethers: 5.7.2
       fastify: 4.26.2
       fastify-type-provider-zod: 1.1.9(fastify@4.26.2)(zod@3.23.4)
-      next: 14.2.3(@babel/core@7.24.4)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(react-dom@18.3.1)(react@18.3.1)
+      next: 14.2.3(@babel/core@7.24.4)(@opentelemetry/api@1.8.0)(@playwright/test@1.44.1)(react-dom@18.3.1)(react@18.3.1)
       uuid: 9.0.1
       zod: 3.23.4
     transitivePeerDependencies:
@@ -15367,7 +15367,7 @@ packages:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      next: 14.2.3(@babel/core@7.24.4)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(react-dom@18.3.1)(react@18.3.1)
+      next: 14.2.3(@babel/core@7.24.4)(@opentelemetry/api@1.8.0)(@playwright/test@1.44.1)(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     dev: false
@@ -15379,7 +15379,7 @@ packages:
       react: '>=16.0.0'
       react-dom: '>=16.0.0'
     dependencies:
-      next: 14.2.3(@babel/core@7.24.4)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(react-dom@18.3.1)(react@18.3.1)
+      next: 14.2.3(@babel/core@7.24.4)(@opentelemetry/api@1.8.0)(@playwright/test@1.44.1)(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     dev: false
@@ -15395,7 +15395,7 @@ packages:
       '@next/env': 13.5.6
       fast-glob: 3.3.2
       minimist: 1.2.8
-      next: 14.2.3(@babel/core@7.24.4)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(react-dom@18.3.1)(react@18.3.1)
+      next: 14.2.3(@babel/core@7.24.4)(@opentelemetry/api@1.8.0)(@playwright/test@1.44.1)(react-dom@18.3.1)(react@18.3.1)
     dev: true
 
   /next-tick@1.1.0:
@@ -15413,7 +15413,7 @@ packages:
       - supports-color
     dev: true
 
-  /next@14.2.3(@babel/core@7.24.4)(@opentelemetry/api@1.8.0)(@playwright/test@1.43.1)(react-dom@18.3.1)(react@18.3.1):
+  /next@14.2.3(@babel/core@7.24.4)(@opentelemetry/api@1.8.0)(@playwright/test@1.44.1)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-dowFkFTR8v79NPJO4QsBUtxv0g9BrS/phluVpMAt2ku7H+cbcBJlopXjkWlwxrk/xGqMemr7JkGPGemPrLLX7A==}
     engines: {node: '>=18.17.0'}
     hasBin: true
@@ -15433,7 +15433,7 @@ packages:
     dependencies:
       '@next/env': 14.2.3
       '@opentelemetry/api': 1.8.0
-      '@playwright/test': 1.43.1
+      '@playwright/test': 1.44.1
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
       caniuse-lite: 1.0.30001612
@@ -16391,17 +16391,17 @@ packages:
       find-up: 3.0.0
     dev: true
 
-  /playwright-core@1.43.1:
-    resolution: {integrity: sha512-EI36Mto2Vrx6VF7rm708qSnesVQKbxEWvPrfA1IPY6HgczBplDx7ENtx+K2n4kJ41sLLkuGfmb0ZLSSXlDhqPg==}
+  /playwright-core@1.44.1:
+    resolution: {integrity: sha512-wh0JWtYTrhv1+OSsLPgFzGzt67Y7BE/ZS3jEqgGBlp2ppp1ZDj8c+9IARNW4dwf1poq5MgHreEM2KV/GuR4cFA==}
     engines: {node: '>=16'}
     hasBin: true
 
-  /playwright@1.43.1:
-    resolution: {integrity: sha512-V7SoH0ai2kNt1Md9E3Gwas5B9m8KR2GVvwZnAI6Pg0m3sh7UvgiYhRrhsziCmqMJNouPckiOhk8T+9bSAK0VIA==}
+  /playwright@1.44.1:
+    resolution: {integrity: sha512-qr/0UJ5CFAtloI3avF95Y0L1xQo6r3LQArLIg/z/PoGJ6xa+EwzrwO5lpNr/09STxdHuUoP2mvuELJS+hLdtgg==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
-      playwright-core: 1.43.1
+      playwright-core: 1.44.1
     optionalDependencies:
       fsevents: 2.3.2
 
